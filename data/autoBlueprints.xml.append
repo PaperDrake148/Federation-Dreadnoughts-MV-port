@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- event-related lists -->
+ <mod:findName type="blueprintList" name="LIST_WEAPONS_ALL">
+    <mod-append:name>ARTILLERY_POWERTRIP_EMP</mod-append:name>
+    <mod-append:name>MATTER_ERASER</mod-append:name>
+	<mod-append:name>DIABLO_RAILGUN</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_ION">
+	<mod-append:name>ARTILLERY_POWERTRIP_EMP</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
+	<mod-append:name>MATTER_ERASER</mod-append:name>
+</mod:findName>
+
+<mod:findName type="blueprintList" name="LIST_WEAPONS_MISSILES">
+	<mod-append:name>DIABLO_RAILGUN</mod-append:name>
+</mod:findName>
