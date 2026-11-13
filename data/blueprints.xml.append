@@ -246,7 +246,7 @@
 	<maxPower amount="8" />
 	<crewCount amount="1" class="human" />
 	<crewCount amount="1" class="human" />
-	<crewCount amount="1" class="energy" />
+	<crewCount amount="1" class="zoltan" />
 	<crewCount amount="1" class="mantis" />
 </shipBlueprint>
 
