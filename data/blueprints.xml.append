@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weaponBlueprint name="MATTER_ERASER">
+	<type>BEAM</type>
+	<title>Matter Eraser Beam</title>
+	<short>Matter Eraser</short>
+	<desc>This horrifying beam weapon created by madmen erases solid matter on contact.</desc>
+	<tooltip>Slow but powerful beam weapon, does 3 damage per room hit and double damage to crew.</tooltip>
+	<damage>3</damage>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>6</breachChance>
+	<persDamage>3</persDamage>
+	<speed>2</speed>
+	<cooldown>30</cooldown>
+	<power>4</power>
+	<cost>150</cost>
+	<bp>7</bp>
+	<rarity>0</rarity>
+	<length>75</length>
+	<image>ba_beam_hit_heavy</image>
+	<launchSounds>
+		<sound>matter_eraser</sound>
+	</launchSounds>
+	<weaponArt>matter_eraser</weaponArt> 
+</weaponBlueprint>
+<weaponBlueprint name="RAILGUN_DIABLO">
+	<type>MISSILES</type>
+	<tip>tip_missiles</tip>
+	<title>Diablo Railgun</title>
+	<short>Diablo R.</short>
+	<desc>This advanced weapon fires an explosive projectile at incredible speeds, ignoring all shields.</desc>
+	<tooltip>Fires 1 shot; pierces all shields, deals 4 damage and causes fires and breaches. Uses 1 missile.</tooltip>
+	<damage>4</damage>
+	<speed>200</speed>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>2</fireChance>
+	<breachChance>10</breachChance>
+	<stunChance>5</stunChance>
+	<cooldown>20</cooldown>
+	<power>3</power>
+	<cost>125</cost>
+	<bp>6</bp>
+	<rarity>5</rarity>
+	<image>railgun_diablo_shot</image>
+	<explosion>ba_explosion_big1_hit</explosion>
+	<launchSounds>
+		<sound>railgun_diablo</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>railgun_diablo</weaponArt>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="ARTILLERY_POWERTRIP_EMP">
+	<type>BURST</type>
+	<title>Powertrip EMP</title>
+	<short>EMP</short>
+	<desc>Emits a powerful electromagnetic pulse that can disable entire ships and stun crew. 3 minutes base cooldown.</desc>
+	<tooltip>Ion pulse weapon that deals incredibly heavy ion damage to the enemy ship and stuns crew. 180 seconds base cooldown.</tooltip>
+	<damage>0</damage>
+	<ion>1</ion>
+	<stun>10</stun>
+	<sp>5</sp>
+	<radius>70</radius>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<speed>300</speed>
+	<cooldown>180</cooldown>
+	<power>1</power>
+	<cost>0</cost>
+	<bp>5</bp>
+	<rarity>0</rarity>
+	<explosion>ba_explosion_artillery_circle</explosion>
+	<projectiles>
+		<projectile count="100" fake="false">ba_effector_impact_1</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>pulsar</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>silence</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>silence</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>silence</sound>
+	</missSounds>
+	<weaponArt>artillery_powertrip_emp</weaponArt>
+</weaponBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT" layout="fed_dreadnought_hailstorm" img="fed_dreadnought_hailstorm">
+	<class>Fed Dreadnought</class>
+	<name>GFS Hailstorm</name>
+	<desc>This massive prototype ship has a 17% tougher hull than most cruisers and is capable of running 25% more energy through the weapons system, but is incapable of reaching the same speeds as a cruiser.</desc>
+	<systemList>
+		<artillery power="1" room="0" max="4" start="true" weapon="ARTILLERY_FED" img="room_artillery_hailstorm" />
+		<battery power="1" room="9" start="false" img="room_battery_hailstorm" />
+		<cloaking power="1" room="14" start="false" img="room_cloaking_5" />
+		<clonebay power="1" room="5" start="false">
+			<slot>
+				<number>3</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="6" start="true" img="room_doors_hailstorm">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</doors>
+		<drones power="2" room="16" start="false" img="room_drones_hailstorm" />
+		<engines power="2" max="4" room="15" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="12" start="false" img="room_hacking_9" />
+		<medbay power="1" room="5" start="true" img="room_medbay_3">
+			<slot>
+				<number>3</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_hailstorm" />
+		<oxygen power="1" room="10" start="true" img="room_oxygen_7" />
+		<pilot power="1" room="11" start="true" img="room_pilot_hailstorm">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="1" start="true" img="room_sensors_hailstorm">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="17" max="8" start="true" img="room_shields_hailstorm">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="8" start="false" />
+		<weapons power="5" room="2" max="10" start="true" img="room_weapons_hailstorm">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_8" />
+	</weaponList>
+	<droneList drones="2" count="2" />
+	<health amount="35" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="engi" />
+	<crewCount amount="1" class="zoltan" />
+	<crewCount amount="1" class="rock" />
+</shipBlueprint>
+<shipBlueprint name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT_2" layout="fed_dreadnought_acerbus" img="fed_dreadnought_acerbus">
+	<class>Fed Dreadnought</class>
+	<name>The Acerbus</name>
+	<desc>This ship was captured by Rock cultists and modified with rare super-hard glowing crystals and devastating weaponry before being recaptured by the Federation.</desc>
+	<systemList>
+		<artillery power="1" room="1" start="false" weapon="ARTILLERY_FED" img="room_artillery_acerbus" />
+		<battery power="1" room="19" start="false" img="room_battery_acerbus" />
+		<cloaking power="1" room="15" start="false" img="room_cloaking_acerbus" />
+		<clonebay power="1" room="6" start="false">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="5" start="true" img="room_doors_acerbus">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="2" room="9" start="false" img="room_drones_acerbus" />
+		<engines power="2" max="4" room="18" start="true" img="room_engines_acerbus">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="2" start="false" img="room_hacking" />
+		<medbay power="1" room="6" start="true" img="room_medbay_4">
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_acerbus" />
+		<oxygen power="1" room="14" start="true" img="room_oxygen_acerbus" />
+		<pilot power="1" room="13" start="true" img="room_pilot_acerbus">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="true" img="room_sensors_acerbus">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="8" max="8" start="true" img="room_shields_acerbus">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="4" start="false" />
+		<weapons power="4" room="0" max="10" start="true" img="room_weapons_acerbus">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="15" count="4">
+		<weapon name="MATTER_ERASER" />
+		<weapon name="RAILGUN_DIABLO" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="35" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="energy" />
+	<crewCount amount="1" class="mantis" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT_3" layout="fed_dreadnought_ruptor" img="fed_dreadnought_ruptor">
+	<class>Fed Dreadnought</class>
+	<name>Regula Ruptor</name>
+	<desc>This prototype Federation ship was stolen by pirates and its artillery beam replaced with an incredibly powerful EMP emitter.</desc>
+	<systemList>
+		<artillery power="1" room="0" max="4" start="true" weapon="ARTILLERY_POWERTRIP_EMP" img="room_artillery_ruptor" />
+		<battery power="1" room="7" start="true" img="room_battery_ruptor" />
+		<cloaking power="1" room="3" start="false" img="room_cloaking_ruptor" />
+		<clonebay power="1" room="15" start="true">
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="9" start="true" img="room_doors_ruptor">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="2" room="2" start="false" img="room_drones_ruptor" />
+		<engines power="1" max="4" room="14" start="true" img="room_engines">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="4" start="false" img="room_hacking_ruptor" />
+		<medbay power="1" room="15" start="false" img="room_medbay_ruptor">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="5" start="false" img="room_mind_hailstorm" />
+		<oxygen power="1" room="16" start="true" img="room_oxygen_coronatus" />
+		<pilot power="1" room="12" start="true" img="room_pilot_ruptor">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="1" start="true" img="room_sensors_ruptor">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="17" max="8" start="true" img="room_shields_hailstorm">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="6" start="false" />
+		<weapons power="3" room="10" max="10" start="true" img="room_weapons_ruptor">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="BEAM_FIRE" />
+		<weapon name="LASER_CHARGEGUN" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="35" />
+	<maxPower amount="8" />
+	<crewCount amount="1" class="human" />
+	<crewCount amount="1" class="rock" />
+	<crewCount amount="1" class="mantis" />
+	<crewCount amount="1" class="lanius" />
+	<aug name="CREW_STIMS" />
+</shipBlueprint>

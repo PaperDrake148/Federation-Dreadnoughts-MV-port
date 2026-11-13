@@ -1,0 +1,66 @@
+<animSheet name="matter_eraser" w="666" h="90" fw="37" fh="90">weapons/matter_eraser_strip18.png</animSheet>
+<weaponAnim name="matter_eraser">
+	<sheet>matter_eraser</sheet>
+	<desc length="18" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>6</fireFrame>
+	<firePoint  x="17" y="39"/>
+	<mountPoint x="6" y="81"/>
+	<chargeImage>weapons/matter_eraser_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="railgun_diablo" w="434" h="77" fw="31" fh="77">weapons/railgun_diablo_strip14.png</animSheet>
+<weaponAnim name="railgun_diablo">
+	<sheet>railgun_diablo</sheet>
+	<desc length="14" x="0" y="0"/>
+	<chargedFrame>5</chargedFrame>
+	<fireFrame>7</fireFrame>
+	<firePoint  x="18" y="0"/>
+	<mountPoint x="6" y="52"/>
+	<chargeImage>weapons/railgun_diablo_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="artillery_powertrip_emp" w="5040" h="200" fw="240" fh="200">weapons/artillery_powertrip_emp_strip21.png</animSheet>
+<weaponAnim name="artillery_powertrip_emp">
+	<sheet>artillery_powertrip_emp</sheet>
+	<desc length="21" x="0" y="0" />
+	<chargedFrame>12</chargedFrame>
+	<fireFrame>13</fireFrame>
+	<firePoint x="203" y="100" />
+	<mountPoint x="0" y="0" />
+</weaponAnim>
+
+<animSheet name="railgun_diablo_shot" w="7" h="25" fw="7" fh="26">weapons/railgun_diablo_shot.png</animSheet>
+<anim name="railgun_diablo_shot">
+	<sheet>railgun_diablo_shot</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.3</time>
+</anim>
+
+<animSheet name="ba_effector_impact_1" w="315" h="35" fw="35" fh="35">weapons/ba_effector_impact_1_strip9.png</animSheet>
+<anim name="ba_effector_impact_1">
+	<sheet>ba_effector_impact_1</sheet>
+	<desc length="9" x="0" y="0"/>
+	<time>1</time>
+</anim>
+
+<animSheet name="ba_beam_hit_heavy" w="100" h="100" fw="100" fh="100">weapons/ba_beam_hit_heavy.png</animSheet>
+<anim name="ba_beam_hit_heavy">
+	<sheet>ba_beam_hit_heavy</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.75</time>
+</anim>
+
+<animSheet name="ba_explosion_big1_hit" w="2000" h="100" fw="100" fh="100">effects/ba_explosion_big1_hit_strip20.png</animSheet>
+<anim name="ba_explosion_big1_hit">
+	<sheet>ba_explosion_big1_hit</sheet>
+	<desc length="20" x="0" y="0"/>
+	<time>1.5</time>
+</anim>
+
+<animSheet name="ba_explosion_artillery_circle" w="2000" h="2000" fw="2000" fh="2000">effects/ba_explosion_artillery_circle.png</animSheet>
+<anim name="ba_explosion_artillery_circle">
+	<sheet>ba_explosion_artillery_circle</sheet>
+	<desc length="1" x="0" y="0"/>
+	<time>0.1</time>
+</anim>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<roomLayout name="engines_acerbus">
+	<computerGlow name="glow_roy" x="5" y="53" dir="DOWN" />
+</roomLayout>
+<roomLayout name="pilot_acerbus">
+	<computerGlow name="glow_pilot_roy" x="54" y="9" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="pilot_hailstorm">
+	<computerGlow name="glow_pilot_hailstorm" x="54" y="2" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="pilot_ruptor">
+	<computerGlow name="glow_pilot" x="54" y="8" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="shields_acerbus">
+	<computerGlow name="glow_roy" x="54" y="6" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="shields_hailstorm">
+	<computerGlow x="12" y="1" dir="UP" />
+</roomLayout>
+<roomLayout name="weapons_acerbus">
+	<computerGlow name="glow_roy" x="54" y="8" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="weapons_hailstorm">
+	<computerGlow x="54" y="40" dir="RIGHT" />
+</roomLayout>
+<roomLayout name="weapons_ruptor">
+	<computerGlow x="54" y="40" dir="RIGHT" />
+</roomLayout>

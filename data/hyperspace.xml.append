@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mod:findLike type="ships">
+  <mod-append:ship name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT" b="true" c="true" />
+  <mod-append:customShip name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT">
+  </mod-append:customShip>
+  <mod-append:customShip name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT_2">
+  </mod-append:customShip>
+  <mod-append:customShip name="PLAYER_SHIP_PROTOSTEEL_ANTHONEST_FEDERATION_DREADNOUGHT_3">
+  </mod-append:customShip>
+</mod:findLike>
